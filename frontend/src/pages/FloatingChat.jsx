@@ -17,7 +17,10 @@ const FloatingChat = () => {
         <div className="chat-modal-overlay">
           <div className="chat-modal">
             <p
-              style={{ textAlign: "right", margin: "-10px" }}
+              className="close-btn"
+              style={{
+                textAlign: "right",
+              }}
               onClick={() => setIsOpen(false)}
             >
               ✖
